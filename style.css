@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(7, 7, 70);
+    color: #fddb70;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h1 {
+    font-size: 50px;
+    color: #fddc709f;
+}
+
+header {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+    border-bottom: dashed 2px #fddb70;
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button {
+    padding: 40px 200px;
+}
